@@ -2,7 +2,7 @@ package lab1.classes;
 
 public class ComplexOperations {
     public static int square(int n) {
-        return (int) Math.pow(n, 2); // Пример возведения в квадрат
+        return (int) Math.pow(n, 2);
     }
 
     public static int fibonacci(int n) {

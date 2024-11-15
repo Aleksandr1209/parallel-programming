@@ -20,9 +20,7 @@ public class ParallelProcessor {
         }
 
         executor.shutdown();
-        while (!executor.isTerminated()) {
-            // Ждем завершения всех потоков
-        }
+        while (!executor.isTerminated()) {}
     }
 }
 
